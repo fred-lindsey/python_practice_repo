@@ -120,7 +120,7 @@ def get_prices():
 ### Using REI's site as an example, under section camp electronics
 
 # 1. navigate to site, inspect page elements
-# 2. in the inspect page elemnets box, click the network tab in the toolbar at top, and check the box for 'Fetch/XHR' to retrieve the full web request
+# 2. in the inspect page elements box, click the network tab in the toolbar at top, and check the box for 'Fetch/XHR' to retrieve the full web request
 # 3. navigate to the bottom of the target page, click on 'more' or 'page 2', which will generate more search results
 # 4. select the request that contains all of the web page info (page size/items). This result is the body of the scrpaing file we will build.
 # 5. Copy the appropriate result with a right click "copy cURL"
